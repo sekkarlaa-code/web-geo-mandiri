@@ -98,7 +98,7 @@ const programsData = {
     { no: 3, nama: 'Ahli K3 Muda Lingkungan', biaya: 'Rp 12.000.000', durasi: '7 Hari', instruktur: 'Kemnaker' },
     { no: 4, nama: 'Tehnisi Ruang Terbatas', biaya: 'Rp 8.500.000', durasi: '5 Hari', instruktur: 'Kemnaker' },
     { no: 5, nama: 'Petugas K3 Penyelamat', biaya: 'Rp 7.500.000', durasi: '3 Hari', instruktur: 'Kemnaker' },
-    { no: 6, nama: 'Tehnisi K3 Deteksi Gas', biaya: 'Rp 8.500.000', durasi: '5 Hari', instruktur: 'Kemnaker' }
+    { no: 6, nama: 'Tehnisi K3 Deteksi Gas', biaya: 'Rp 7.500.000', durasi: '3 Hari', instruktur: 'Kemnaker' }
   ],
   ketinggian: [
     { no: 1, nama: 'Tenaga Kerja Bangunan Tingkat Tinggi 2', biaya: 'Rp 7.500.000', durasi: '3 Hari', instruktur: 'Kemnaker' },
@@ -113,11 +113,11 @@ const programsData = {
   ],
   listrik: [
     { no: 1, nama: 'Ahli K3 Listrik', biaya: 'Rp 20.500.000', durasi: '18 Hari', instruktur: 'Kemnaker' },
-    { no: 2, nama: 'Teknisi Listrik', biaya: 'Rp 8.500.000', durasi: '7 Hari', instruktur: 'Kemnaker' }
+    { no: 2, nama: 'Tehnisi Listrik', biaya: 'Rp 8.500.000', durasi: '7 Hari', instruktur: 'Kemnaker' }
   ],
   elevator: [
     { no: 1, nama: 'Ahli K3 Elevator & Eskalator', biaya: 'Rp 19.500.000', durasi: '12 Hari', instruktur: 'Kemnaker' },
-    { no: 2, nama: 'Teknisi Elevator & Eskalator', biaya: 'Rp 8.500.000', durasi: '6 Hari', instruktur: 'Kemnaker' },
+    { no: 2, nama: 'Tehnisi Elevator & Eskalator', biaya: 'Rp 8.500.000', durasi: '6 Hari', instruktur: 'Kemnaker' },
     { no: 3, nama: 'Operator Elevator & Eskalator', biaya: 'Rp 8.500.000', durasi: '6 Hari', instruktur: 'Kemnaker' }
   ],
   kebakaran: [
@@ -134,7 +134,7 @@ const programsData = {
   ],
   pesawatAngkat: [
     { no: 1, nama: 'Ahli K3 Pesawat Angkat & Pesawat Angkut', biaya: 'Rp 34.000.000', durasi: '25 Hari', instruktur: 'Kemnaker' },
-    { no: 2, nama: 'Teknisi Pesawat Angkat & Pesawat Angkut', biaya: 'Rp 12.100.000', durasi: '9 Hari', instruktur: 'Kemnaker' },
+    { no: 2, nama: 'Tehnisi Pesawat Angkat & Pesawat Angkut', biaya: 'Rp 12.100.000', durasi: '9 Hari', instruktur: 'Kemnaker' },
     { no: 3, nama: 'Operator Overhead Crane Kelas I', biaya: 'Rp 7.500.000', durasi: '5 Hari', instruktur: 'Kemnaker' },
     { no: 4, nama: 'Operator Overhead Crane Kelas II', biaya: 'Rp 6.500.000', durasi: '4 Hari', instruktur: 'Kemnaker' },
     { no: 5, nama: 'Operator Overhead Crane Kelas III', biaya: 'Rp 5.500.000', durasi: '3 Hari', instruktur: 'Kemnaker' },
@@ -146,7 +146,7 @@ const programsData = {
   ],
   pesawatTenaga: [
     { no: 1, nama: 'Ahli K3 Pesawat Tenaga & Produksi', biaya: 'Rp 33.500.000', durasi: '25 Hari', instruktur: 'Kemnaker' },
-    { no: 2, nama: 'Teknisi Pesawat Tenaga & Produksi', biaya: 'Rp 12.000.000', durasi: '9 Hari', instruktur: 'Kemnaker' },
+    { no: 2, nama: 'Tehnisi Pesawat Tenaga & Produksi', biaya: 'Rp 12.000.000', durasi: '9 Hari', instruktur: 'Kemnaker' },
     { no: 3, nama: 'Operator Penggerak Mula (Motor Diesel, Turbin)', biaya: 'Rp 7.000.000', durasi: '4 Hari', instruktur: 'Kemnaker' },
     { no: 4, nama: 'Operator Mesin Produksi & Perkakas Kelas I', biaya: 'Rp 8.000.000', durasi: '5 Hari', instruktur: 'Kemnaker' },
     { no: 5, nama: 'Operator Mesin Produksi & Perkakas Kelas II', biaya: 'Rp 7.000.000', durasi: '4 Hari', instruktur: 'Kemnaker' },
