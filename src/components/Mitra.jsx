@@ -22,7 +22,7 @@ function Mitra() {
     ]
 
     return (
-        <section id="mitra" className="section-padding" style={{ background: '#ffffff' }}>
+        <section id="mitra" className="section-padding mitra-section" style={{ background: 'transparent' }}>
             <div className="container">
                 <div className="text-center mb-5">
                     <span className="section-subtitle">MITRA GMK</span>
@@ -32,18 +32,21 @@ function Mitra() {
                     </p>
                     <div className="yellow-line" style={{ margin: '20px auto 0' }}></div>
                 </div>
-                <div className="row g-4 justify-content-center align-items-center text-center">
-                    {logos.map((logo, index) => (
-                        <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-auto d-flex justify-content-center px-4">
-                            <div className="mitra-logo-box">
-                                <img
-                                    src={logo.src}
-                                    alt={`Mitra ${logo.alt}`}
-                                    className="img-fluid mitra-logo"
-                                />
+            
+                <div className="mitra-box-card">
+                    <div className="row g-4 justify-content-center align-items-center text-center">
+                        {logos.map((logo, index) => (
+                            <div key={index} className="col-6 col-sm-4 col-md-3 col-xl-auto d-flex justify-content-center px-4">
+                                <div className="mitra-logo-box">
+                                    <img
+                                        src={logo.src}
+                                        alt={`Mitra ${logo.alt}`}
+                                        className="img-fluid mitra-logo"
+                                    />
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
 
             </div>

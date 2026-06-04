@@ -344,17 +344,34 @@ body {
 /* ==========================================================================
    MITRA / PARTNERS 
    ========================================================================== */
+.mitra-section {
+  padding: 80px 0;
+  background: transparent;
+}
+
+.mitra-box-card {
+  background: #ffffff !important;   
+  border-radius: 30px !important;  
+  padding: 50px 40px !important;   
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08) !important; 
+  border: 1px solid #e2e8f0 !important; 
+  max-width: 1100px;
+  margin: 40px auto 0;
+  box-sizing: border-box;
+}
+
 .mitra-logo-box {
-  padding: 10px;
+  padding: 10px;            
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px; 
+  height: 80px;               
   width: 100%;
+  background: transparent !important; 
 }
 
 .mitra-logo {
-  max-height: 45px; 
+  max-height: 42px; 
   width: auto;
   object-fit: contain;
   filter: none !important; 
@@ -363,9 +380,8 @@ body {
 }
 
 .mitra-logo:hover {
-  transform: scale(1.05); 
+  transform: scale(1.08); 
 }
-
 /* ==========================================================================
    PROGRAMS SECTION
    ========================================================================== */
@@ -647,17 +663,20 @@ body {
   }
 
   .hero-section {
-    padding-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 45px;
+    padding-bottom: 30px;
     text-align: center; 
   }
   .hero-title {
-    font-size: 34px; 
+    font-size: 32px; 
+    line-height: 1.2;
+    margin-top: 0px;
   }
   .hero-text {
     font-size: 15px;
-    line-height: 1.7;
-    margin-bottom: 28px;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 24px;
   }
 
   .hero-image-wrapper {
@@ -681,6 +700,23 @@ body {
     padding: 0 15px;
   }
 
+  .mitra-section {
+    padding: 40px 15px;      
+  }
+  
+  .mitra-section .container {
+    padding: 35px 20px;      
+    border-radius: 24px;   
+  }
+  
+  .mitra-logo-box {
+    height: 65px;         
+  }
+  
+  .mitra-logo {
+    max-height: 32px;        
+  }
+
   .stats-section {
     padding-top: 40px;
     margin-bottom: 60px;
@@ -699,20 +735,29 @@ body {
     padding: 30px 20px;
   }
 
-  .category-wrapper {
-    gap: 8px;
+ .category-wrapper {
+    display: flex;
+    flex-wrap: wrap;       
+    gap: 8px;             
+    justify-content: center;
+    padding: 0 10px;
   }
   .category-btn {
-    padding: 10px 16px;
-    border-radius: 13px;
-    font-size: 40px;
+    padding: 8px 14px;     
+    border-radius: 30px;  
+    font-size: 13px;       
+    font-weight: 500;
+    width: auto;           
+    display: inline-flex; 
+    align-items: center;
+    gap: 6px;
   }
   .category-btn icon {
-    width: 28px;
-    height: 28px;
+    width: 16px;
+    height: 16px;
   }
   .category-btn i {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -726,6 +771,10 @@ body {
   }
   .hero-title { 
     font-size: 56px; 
+  }
+  .mitra-section {
+    background: #f8fafc !important; 
+    padding: 100px 0;
   }
   .stats-section { 
     padding-top: 70px; 
